@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "inter", sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+}
+.contact-me{
+    width: 300px;
+    padding: 16px;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    border-radius: 8px;
+}
+.contact-me h1{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.contact-me p{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+#location{
+    color:hsl(75, 94%, 57%) ;
+    font-weight: bold;
+    }
+.links a{
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin: 16px 0;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 20%);
+    transition: 0.3s;
+    font-weight: bold;
+}
+.links a:hover{
+    background-color: hsl(0, 0%, 30%);
+    color: hsl(75, 94%, 57%);
+}
+.contact-me img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.contact-me img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
