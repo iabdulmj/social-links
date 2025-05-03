@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f3e5d8;
     color: #333;
@@ -13,83 +13,82 @@
     display: flex;
     justify-content: center;
     padding: 2rem;
-  }
-  
-  .recipe-card {
+}
+
+.recipe-card {
     background-color: white;
     border-radius: 16px;
     max-width: 740px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  .recipe-image {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
     width: 100%;
     height: auto;
     display: block;
-  }
-  
-  .recipe-content {
+}
+
+.recipe-content {
     padding: 2rem;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'Georgia', serif;
-  }
-  
-  .description {
+}
+
+.description {
     margin-bottom: 1.5rem;
-  }
-  
-  .prep-time {
+}
+
+.prep-time {
     background-color: #fff7fc;
     border-radius: 10px;
     padding: 1rem;
     margin: 1.5rem 0;
-  }
-  
-  .prep-time h3 {
+}
+
+.prep-time h3 {
     color: #7b284f;
     margin-bottom: 0.5rem;
-  }
-  
-  .prep-time ul {
+}
+
+.prep-time ul {
     list-style: disc inside;
-  }
-  
-  h2 {
+}
+
+h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: #7b284f;
-  }
-  
-  .ingredients,
-  .instructions {
+}
+
+.ingredients,
+.instructions {
     margin-left: 1.2rem;
-  }
-  
-  .instructions li {
+}
+
+.instructions li {
     margin-bottom: 1rem;
-  }
-  
-  .nutrition-note {
+}
+
+.nutrition-note {
     margin: 1rem 0;
-  }
-  
-  .nutrition-table {
+}
+
+.nutrition-table {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  .nutrition-table td {
+}
+
+.nutrition-table td {
     padding: 0.75rem;
     border-bottom: 1px solid #ddd;
-  }
-  
-  .nutrition-table td:last-child {
+}
+
+.nutrition-table td:last-child {
     font-weight: bold;
     color: #7b284f;
-  }
-  
+}
